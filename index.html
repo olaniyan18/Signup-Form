@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <title>Sign up form</title>
+
+  
+</head>
+<body>
+<div class="container">
+  <div class="secondcontainer">
+    <h1>Learn to code by watching others</h1>
+    <p>See how experienced developers solve problems in real-time.
+      Watching scripted tutorials is great, but understanding how developers think is 
+      invaluable.
+    </p>
+  </div>
+  <div class="thirdcontainer">
+    <div class="try">
+      <label><b>Try it free 7 days</b> then $20/mo. thereafter</label>
+    </div>
+  
+    
+  
+        
+      
+    <form onsubmit="return validate()" autocomplete="off">
+      <div class="form">
+  
+        <div class="firstname">
+          <input type="text" id="firstname" placeholder="First Name" autocomplete="false">
+          <svg height="32" style="overflow:visible;enable-background:new 0 0 32 32" id="svg" viewBox="0 0 32 32" width="32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g id="Error_1_"><g id="Error"><circle cx="16" cy="16" id="BG" r="16" style="fill:hsl(0, 100%, 74%);"/><path d="M14.5,25h3v-3h-3V25z M14.5,6v13h3V6H14.5z" id="Exclamatory_x5F_Sign" style="fill:#E6E6E6;"/></g></g></g></svg>
+          <p class="error-message" aria-live="polite"></p>
+        </div>
+
+        <div>
+          <input type="text" id="lastname" placeholder="Last Name">
+          <svg height="32" style="overflow:visible;enable-background:new 0 0 32 32" id="svg1" viewBox="0 0 32 32" width="32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g id="Error_1_"><g id="Error"><circle cx="16" cy="16" id="BG" r="16" style="fill:hsl(0, 100%, 74%);"/><path d="M14.5,25h3v-3h-3V25z M14.5,6v13h3V6H14.5z" id="Exclamatory_x5F_Sign" style="fill:#E6E6E6;"/></g></g></g></svg>
+          <p class="error-message1" aria-live="polite"></p>
+        </div>
+
+        <div>
+          <input type="email" id="emailaddress" placeholder="Email Address">
+          <svg height="32" style="overflow:visible;enable-background:new 0 0 32 32" id="svg2" viewBox="0 0 32 32" width="32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g id="Error_1_"><g id="Error"><circle cx="16" cy="16" id="BG" r="16" style="fill:hsl(0, 100%, 74%);"/><path d="M14.5,25h3v-3h-3V25z M14.5,6v13h3V6H14.5z" id="Exclamatory_x5F_Sign" style="fill:#E6E6E6;"/></g></g></g></svg>
+          <p class="error-message2" aria-live="polite"></p>
+        </div>
+    
+        <div>
+          <input type="password" id="password" placeholder="Password">
+          <svg height="32" style="overflow:visible;enable-background:new 0 0 32 32" id="svg3" viewBox="0 0 32 32" width="32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g id="Error_1_"><g id="Error"><circle cx="16" cy="16" id="BG" r="16" style="fill:hsl(0, 100%, 74%);"/><path d="M14.5,25h3v-3h-3V25z M14.5,6v13h3V6H14.5z" id="Exclamatory_x5F_Sign" style="fill:#E6E6E6;"/></g></g></g></svg>
+          <p class="error-message3" aria-live="polite"></p>
+        </div>
+    
+        <div>
+          <input type="submit" class="submit" value="CLAIM YOUR FREE TRIAL">
+        </div>
+        <p class="terms">By clicking the button, you are agreeing with the <b style="color: hsl(0, 100%, 74%);">Terms and Services</b></p>
+      </div>
+      
+    </form>
+  </div>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
